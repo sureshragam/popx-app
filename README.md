@@ -1,16 +1,27 @@
-# React + Vite
+# PopX App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React application built based on the provided mobile UI design.
 
-Currently, two official plugins are available:
+Users can create an account, log in, and view their profile on the account settings page. The application also includes form validation and protected routes so the settings page can only be accessed after login.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+User data is stored in localStorage since this is a frontend-only application.
 
-## React Compiler
+## Tech Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React (Vite)
+* React Router
+* CSS Modules
 
-## Expanding the ESLint configuration
+## Run the project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+The app will run on:
+
+http://localhost:5173
