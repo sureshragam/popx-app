@@ -1,0 +1,44 @@
+.field {
+	margin-bottom: 20px;
+}
+
+.inputWrapper {
+	position: relative;
+}
+
+.input {
+	width: 100%;
+	padding: 14px;
+	border-radius: 8px;
+	border: 1px solid var(--border-color);
+	font-size: 14px;
+}
+
+.label {
+	position: absolute;
+	top: -8px;
+	left: 12px;
+	background: var(--container-background);
+	padding: 0 6px;
+	font-size: 12px;
+	color: var(--primary);
+}
+
+.required {
+	color: var(--required-color);
+}
+
+.input:focus {
+	outline: none;
+	border-color: var(--primary);
+}
+
+.input::placeholder {
+	color: var(--text-placeholder);
+}
+
+.error {
+	font-size: 12px;
+	color: var(--required-color);
+	margin-top: 4px;
+}

@@ -1,0 +1,58 @@
+.card {
+	padding: 20px;
+}
+
+.profileSection {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.avatarWrapper {
+	position: relative;
+}
+
+.avatar {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
+
+.cameraIcon {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+	width: 24px;
+	height: 24px;
+
+	background: var(--primary);
+	color: white;
+
+	border-radius: 50%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 12px;
+}
+
+.userInfo h3 {
+	margin: 0;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.userInfo p {
+	margin: 4px 0 0;
+	font-size: 14px;
+}
+
+.description {
+	font-size: 14px;
+	color: var(--text-primary);
+	opacity: 0.6;
+	line-height: 1.5;
+}

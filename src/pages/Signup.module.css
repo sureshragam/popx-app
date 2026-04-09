@@ -1,0 +1,26 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	padding: 20px;
+}
+
+.signupForm {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.signupForm > button {
+	align-self: flex-end;
+}
+
+.fields {
+	flex: 1;
+}
+.error {
+	color: var(--error-color);
+	font-size: 14px;
+	margin-bottom: 10px;
+	text-align: center;
+}

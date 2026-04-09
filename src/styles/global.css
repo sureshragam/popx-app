@@ -1,0 +1,39 @@
+:root {
+	--primary: #6c25ff;
+	--primary-light: #6c25ff4b;
+	--text-secondary: #ffffff;
+	--border-color: #cbcbcb;
+	--required-color: #dd4a3d;
+	--text-primary: #1d2226;
+	--text-placeholder: #919191;
+	--container-background: #f7f8f9;
+	--error-color: rgba(255, 0, 0, 0.994);
+}
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Rubik", sans-serif;
+}
+
+.app-container {
+	max-width: 420px;
+	margin: 0 auto;
+	min-height: 100vh;
+	background: var(--container-background);
+	border: 1px solid var(--border-color);
+}
+
+h2 {
+	font-size: 28px;
+	margin-bottom: 22px;
+	color: var(--text-primary);
+	font-style: normal;
+	font-weight: 500;
+}
+
+p {
+	font-size: 13px;
+}
