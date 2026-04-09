@@ -2,7 +2,7 @@ import { useState } from "react";
 import InputField from "../components/InputField/InputField";
 import RadioGroup from "../components/RadioGroup/RadioGroup";
 import Button from "../components/Button/Button";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Navigate } from "react-router-dom";
 import {
 	isEmailValid,
 	isPasswordValid,
